@@ -139,7 +139,7 @@ public class RSA_Re {
 		return judge;
 	}
 
-	//aのpow乗をnで割った余りを返す関数(高速計算可能)
+	//aのpow乗をnで割った余りを返す関数
 	public static long powrem(long a, long pow, long n) {
 		long r = 1;
 		for (long i = 1; i <= pow; i++) {
