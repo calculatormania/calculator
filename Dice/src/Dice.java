@@ -11,7 +11,7 @@ public class Dice {
 		
 		Random rnd = new SecureRandom();
 
-	  for(int j = 1; j <= M; j++) {
+	 \\for(int j = 1; j <= M; j++) {
 		  
 		  n= 0;
 		
@@ -34,5 +34,5 @@ public class Dice {
 		System.out.println(m/M);
 		
 		
-	}
+	\\}
 }
